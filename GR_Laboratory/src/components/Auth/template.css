@@ -1,0 +1,61 @@
+.metropolis-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.clr-dtr {
+  background: linear-gradient(105deg, #019959 0, #08a1a7 100%);
+  padding-top: 10px;
+}
+
+.image-section {
+  flex: 1;
+  margin-right: 20px;
+}
+.bg-ctr {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #ffffff20;
+  line-height: 70px;
+  text-align: center;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.info-section {
+  flex: 2;
+  color: white;
+}
+
+.info-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.info-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+.info-items p {
+  margin: 0%;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  flex: 1 1 calc(50% - 15px);
+}
+
+.info-item i {
+  font-size: 24px;
+  color: white;
+}

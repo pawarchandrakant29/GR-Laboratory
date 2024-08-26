@@ -1,0 +1,392 @@
+.about-us {
+  background-color: #023130;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.about-us-banner {
+  text-align: center;
+  color: #ffffff;
+}
+
+.vision-mission {
+  display: flex;
+  color: #b5a003;
+  gap: 20px;
+}
+
+.vision,
+.mission {
+  border: 1px solid #ffb300;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 45%;
+  background-color: #000;
+}
+
+.team-members {
+  display: flex;
+  width: 100%;
+}
+
+.footer {
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.our-journey-container {
+  padding: 20px;
+  background-color: #000;
+  border: 1px solid #ffb300;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.our-journey-container h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #b5a003;
+}
+
+.our-journey-container p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.journey-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.journey-image {
+  flex: 1;
+  max-width: 400px;
+  height: auto;
+}
+
+.journey-text {
+  flex: 2;
+  font-size: 1em;
+  color: #333;
+}
+
+.journey-text h3 {
+  font-size: 1.5em;
+  color: #0056b3;
+  margin-bottom: 10px;
+}
+
+.journey-text ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.journey-text ul li {
+  font-size: 1em;
+  line-height: 1.8;
+  color: #333;
+}
+
+.timeline-navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.timeline-navigation span {
+  font-size: 1em;
+  color: #0056b3;
+  cursor: pointer;
+  position: relative;
+}
+
+.timeline-navigation span::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #0056b3;
+  transition: width 0.3s;
+}
+
+.timeline-navigation span:hover::before {
+  width: 100%;
+}
+
+.values-container {
+  padding: 20px;
+  border: 1px solid #ffb300;
+  background-color: #000;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.values-container h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #c0b000;
+}
+
+.values-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  flex: 1;
+  background-color: #e0f4ff;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  display: block;
+}
+
+.card-content {
+  background-color: #004987;
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.card-content::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: red;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.logistics-strength {
+  background-color: #000;
+  border: 1px solid #ffb300; /* Light gray background */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.logistics-strength h2 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #b5a003;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 350px;
+  margin-bottom: 20px;
+}
+
+.stat {
+  text-align: center;
+  flex: 1;
+}
+
+.stat .icon {
+  background-color: #ffd700; /* Yellow circle background */
+  border-radius: 50%;
+  padding: 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.stat img {
+  width: 50px;
+  height: 50px;
+}
+
+.stat-number {
+  font-size: 24px;
+  color: #0056b3;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-family: Arial, sans-serif;
+  color: #dfcd03;
+}
+
+/* team */
+
+.team-section {
+  background-color: #000;
+  border: 1px solid #ffb300;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+}
+.maps-section {
+  background-color: #000;
+  border: 1px solid #ffb300;
+  padding: 20px;
+  border-radius: 10px;
+}
+.maps-section h2 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #b5a003;
+}
+
+.team-section h2 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #b5a003;
+}
+
+.tab-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ffd700;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tab:not(.active) {
+  background-color: #ccc;
+}
+
+.team-slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.slider-button {
+  background-color: #ffd700;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.slider-button.prev {
+  left: -20px;
+}
+
+.slider-button.next {
+  right: -20px;
+}
+
+.team-members {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+  padding: 10px 0;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.member {
+  background-color: rgb(3, 50, 1);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+}
+
+.member img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.member-info {
+  margin-top: 10px;
+}
+
+.member-info h3 {
+  font-size: 16px;
+  color: #0056b3;
+  margin: 10px 0 5px;
+}
+
+.member-info p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* maps components */
+
+.map-container {
+  display: flex;
+  gap: 20px;
+}
+
+.map-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.location-details {
+  padding: 10px;
+  background-color: #f7f7f7;
+}
+
+.location-details h4 {
+  margin: 0 0 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.location-details p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+.ms-auto {
+  margin: 0 auto !important;
+}
+.gaps {
+  margin: 0px 15px 0px 0px;
+}
+.gaps2 {
+  margin: 0px 20px 0px 0px;
+}

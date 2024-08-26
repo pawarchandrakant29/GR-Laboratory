@@ -1,0 +1,54 @@
+.order-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .order-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(57, 57, 57, 0.1);
+    width: 300px;
+    background-color: #0a1100;
+  }
+  
+  .order-card h3 {
+    margin-top: 0;
+  }
+  
+  .order-card p {
+    margin: 5px 0;
+  }
+  .upr-set{
+    text-transform: uppercase;
+  }
+  .btn-edit{
+    padding: 8px 16px;
+    background-color: #0057ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  .btn-delete{
+    padding: 8px 16px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600 ;
+    letter-spacing: 0.3px;
+  }
+  .mt-set2{
+    margin-top: 120px;
+  }
+  .no-data-message {
+    text-align: center;
+    font-size: 1.2em;
+    color: #888;
+    margin-top: 20px;
+  }
+  
